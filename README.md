@@ -15,4 +15,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## SCSS
 
+- Allows nesting, makes the styling process more intuitive
+
+- To make the hovering more interactive, add a div and style it to a shape such that it indicates an item being hovered over
+
+### BEM methodology for clean CSS
+
 ## Framer Motion
