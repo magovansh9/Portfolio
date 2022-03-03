@@ -13,11 +13,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## React
 
+- Use console.logs directly in JSX to identify issue
+- Use ReactToolTip to highlight components
+- When working with specific packages and dependencies, one cannot necessarily style them. Written CSS does not hold a higher precedence to the default styling eg: React Tooltip. To overcome this, add !important to the end of every CSS property (not recommended, but necessary as per use case)
+- Add a line between external and internal imports
+
 ### Higher Order Components
 
 - Components that are present on every page of a website. Eliminate redundancy professionaly and creatively by using higher-order components.
 
 - Use HOC to wrap smaller components that share similar functionalities
+
+- App wrap for social icon and navigations dots. Motion wrap for wrapping every component in a framer motion div in order to achieve appropriate animations for every section.
 
 ## SCSS
 
