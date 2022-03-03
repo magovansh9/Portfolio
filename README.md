@@ -13,6 +13,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## React
 
+### Higher Order Components
+
+- Components that are present on every page of a website. Eliminate redundancy professionaly and creatively by using higher-order components.
+
+- Use HOC to wrap smaller components that share similar functionalities
+
 ## SCSS
 
 - Allows nesting, makes the styling process more intuitive
