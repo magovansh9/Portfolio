@@ -25,6 +25,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - To make the hovering more interactive, add a div and style it to a shape such that it indicates an item being hovered over
 
+- use of media screens to target multiple screens
+
 ### BEM methodology for clean CSS
 
 ## Framer Motion

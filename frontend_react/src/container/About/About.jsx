@@ -6,40 +6,16 @@ import { images } from "../../constants";
 import "./About.scss";
 import { urlFor, client } from "../../client";
 
-const abouts = [
-  {
-    title: "Web Animations",
-    description: "I am a good web animator",
-    imgUrl: images.about01,
-  },
-  {
-    title: "Backend Engineering",
-    description: "I am a good backend developer",
-    imgUrl: images.about02,
-  },
-  {
-    title: "UI/UX",
-    description: "I am a good UI/UX developer",
-    imgUrl: images.about03,
-  },
-  {
-    title: "Frontend Developer",
-    description:
-      "I am a frontend developer with a passion for building beautiful and functional websites",
-    imgUrl: images.about04,
-  },
-];
-
 const About = () => {
-  // const [abouts, setAbouts] = useState([]);
+  const [abouts, setAbouts] = useState([]);
 
-  // useEffect(() => {
-  //   const query = '*[_type == "abouts"]';
+  useEffect(() => {
+    const query = '*[_type== "abouts"]';
 
-  //   client.fetch(query).then((data) => {
-  //     setAbouts(data);
-  //   });
-  // }, []);
+    client.fetch(query).then((data) => {
+      setAbouts(data);
+    });
+  }, []);
 
   return (
     <>
@@ -49,7 +25,7 @@ const About = () => {
       </h2>
 
       <div className='app__profiles'>
-        {abouts.map((about, index) => (
+        {abouts?.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.1 }}
@@ -57,7 +33,7 @@ const About = () => {
             className='app__profile-item'
             key={about.title + index}
           >
-            <img src={about.imgUrl} alt={about.title} />
+            <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className='bold-text' style={{ marginTop: 20 }}>
               {about.title}
             </h2>
