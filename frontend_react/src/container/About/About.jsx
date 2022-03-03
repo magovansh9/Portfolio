@@ -1,37 +1,50 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import "./About.scss";
+
 import { images } from "../../constants";
+import "./About.scss";
+import { urlFor, client } from "../../client";
 
 const abouts = [
   {
-    title: "Web Development",
-    description: "I am a good web developer",
+    title: "Web Animations",
+    description: "I am a good web animator",
     imgUrl: images.about01,
-  },
-  {
-    title: "UI/UX",
-    description: "I am a good UI/UX developer",
-    imgUrl: images.about02,
   },
   {
     title: "Backend Engineering",
     description: "I am a good backend developer",
+    imgUrl: images.about02,
+  },
+  {
+    title: "UI/UX",
+    description: "I am a good UI/UX developer",
     imgUrl: images.about03,
   },
   {
-    title: "Web Animations",
-    description: "I am a good web animator",
+    title: "Frontend Developer",
+    description:
+      "I am a frontend developer with a passion for building beautiful and functional websites",
     imgUrl: images.about04,
   },
 ];
 
 const About = () => {
+  // const [abouts, setAbouts] = useState([]);
+
+  // useEffect(() => {
+  //   const query = '*[_type == "abouts"]';
+
+  //   client.fetch(query).then((data) => {
+  //     setAbouts(data);
+  //   });
+  // }, []);
+
   return (
     <>
       <h2 className='head-text'>
-        I Know That <span>Good Dev</span>
-        <br /> means <span>Good Business</span>
+        I Know that <span>Good Design</span> <br />
+        means <span>Good Business</span>
       </h2>
 
       <div className='app__profiles'>
