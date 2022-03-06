@@ -22,8 +22,13 @@ const Skills = () => {
     });
   }, []);
 
+  experience.sort((a, b) => {
+    return a - b;
+  });
+
   return (
     <>
+      {console.log("here", experience)}
       <h2 className='head-text'>Skills & Experience</h2>
 
       <div className='app__skills-container'>

@@ -42,7 +42,9 @@ const Footer = () => {
 
   return (
     <>
-      <h2 className='head-text'>Take a coffee & chat with me!</h2>
+      <h2 className='head-text'>
+        Let's <span>get</span> in touch!
+      </h2>
 
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
@@ -95,10 +97,20 @@ const Footer = () => {
           </button>
         </div>
       ) : (
-        <div>
-          <h3 className='head-text'>Thank you for getting in touch!</h3>
-        </div>
+        <>
+          <div>
+            <h3 className='head-text'>Thank you for getting in touch!</h3>
+          </div>
+        </>
       )}
+
+      <div className='app__footer-greeting app__flex'>
+        <h4 className='p-text'>You made it to the end!🥳</h4>
+
+        <h5 className='credits'>
+          Animations by <span>Framer Motion</span>
+        </h5>
+      </div>
     </>
   );
 };
