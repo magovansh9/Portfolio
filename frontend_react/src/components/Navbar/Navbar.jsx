@@ -20,6 +20,12 @@ const Navbar = () => {
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
+        <li className='app__flex p-text'>
+          <div />
+          <a href='https://drive.google.com/file/d/11OCMBn_pt6QQZB2PgugRUmHygKV0Qh87/export?format=pdf'>
+            resume
+          </a>
+        </li>
       </ul>
 
       <div className='app__navbar-menu'>
