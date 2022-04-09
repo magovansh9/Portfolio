@@ -23,6 +23,23 @@ const About = () => {
         I Know that <span>Good Design</span> <br />
         means <span>Good Business</span>
       </h2>
+      <div className='app__about-text'>
+        <p className=' p-text'>
+          I am a 3rd Year Computer Engineering student at the University of
+          Waterloo. I am passionate about building software, making music and
+          the next Starship launch!
+        </p>
+        <p className=' p-text'>
+          Over the years I have grown fond of activities and disciplines that
+          allow me to be creative. I'm a tech enthusiast with a knack for full
+          stack development and Machine Learning. More recently, I have become
+          increasingly intrigued by System design engineering problems such as
+          circuit breaking and thundering herd. I also have a newfound interest
+          in the evolution of linguistics and am currently learning German and
+          polishing my French! On a regular day, you might find me coding,
+          watching an A380 flight review or filming a guitar cover for YouTube!
+        </p>
+      </div>
 
       <div className='app__profiles'>
         {abouts?.map((about, index) => (

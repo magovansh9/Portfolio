@@ -8,6 +8,9 @@ import "./Skills.scss";
 const Skills = () => {
   const [experience, setExperience] = useState([]);
   const [skills, setSkills] = useState([]);
+  const [numSkills, setNumSkills] = useState(6);
+  const DEVICE_WIDTH = window.innerWidth;
+  const BREAKPOINT = 1500;
 
   useEffect(() => {
     const query = '*[_type == "experiences"]';
@@ -20,6 +23,11 @@ const Skills = () => {
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
     });
+
+    if (DEVICE_WIDTH > BREAKPOINT) {
+      setNumSkills(8);
+    }
+    console.log(DEVICE_WIDTH);
   }, []);
 
   experience.sort((a, b) => {
@@ -28,12 +36,11 @@ const Skills = () => {
 
   return (
     <>
-      {console.log("here", experience)}
       <h2 className='head-text'>Skills & Experience</h2>
 
       <div className='app__skills-container'>
         <motion.div className='app__skills-list'>
-          {skills?.map((skill) => (
+          {skills.slice(0, numSkills)?.map((skill) => (
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               transition={{ duration: 0.5 }}

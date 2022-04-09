@@ -12,6 +12,15 @@
   margin-top: 2rem;
 }
 
+.app__about-text {
+  padding-top: 3rem;
+  p {
+    text-align: justify;
+    font-size: large;
+    padding: 0.5rem;
+  }
+}
+
 .app__profile-item {
   width: 190px;
   display: flex;
