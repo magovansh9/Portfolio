@@ -20,8 +20,7 @@ const About = () => {
   return (
     <>
       <h2 className='head-text'>
-        I Know that <span>Good Design</span> <br />
-        means <span>Good Business</span>
+        About <span>Me</span>
       </h2>
       <div className='app__about-text'>
         <p className=' p-text'>
@@ -29,15 +28,20 @@ const About = () => {
           Waterloo. I am passionate about building software, making music and
           the next Starship launch!
         </p>
-        <p className=' p-text'>
+        <p className='p-text'>
+          I'm a tech enthusiast with a knack for Full Stack and Blockchain
+          development. More recently, I have become increasingly intrigued by
+          System design engineering problems such as circuit breaking and
+          thundering herds. I continue to learn and hone my skills as a software
+          developer.
+        </p>
+        <p className='p-text'>
           Over the years I have grown fond of activities and disciplines that
-          allow me to be creative. I'm a tech enthusiast with a knack for full
-          stack development and Machine Learning. More recently, I have become
-          increasingly intrigued by System design engineering problems such as
-          circuit breaking and thundering herd. I also have a newfound interest
-          in the evolution of linguistics and am currently learning German and
-          polishing my French! On a regular day, you might find me coding,
-          watching an A380 flight review or filming a guitar cover for YouTube!
+          allow me to be creative. Apart from coding, I absolutely love playing
+          the guitar and collaborating with other musicians. I am also a space &
+          aviation fanatic who has seen the Falcon 9 land about 17 jillion
+          times. On a regular day, you might find me coding, watching an A380
+          takeoff or filming a guitar cover for YouTube!
         </p>
       </div>
 

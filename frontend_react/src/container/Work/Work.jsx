@@ -48,7 +48,7 @@ const Work = () => {
           "Blockchain",
           "Web App",
           "Mobile App",
-          "React JS",
+          "Machine Learning",
           "All",
         ].map((item, index) => (
           <div
