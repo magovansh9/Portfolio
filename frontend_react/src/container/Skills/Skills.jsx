@@ -25,7 +25,7 @@ const Skills = () => {
     });
 
     if (DEVICE_WIDTH > BREAKPOINT) {
-      setNumSkills(8);
+      setNumSkills(12);
     }
     console.log(DEVICE_WIDTH);
   }, []);

@@ -22,7 +22,7 @@ const Navbar = () => {
         ))}
         <li className='app__flex p-text'>
           <div />
-          <a href='https://drive.google.com/file/d/11OCMBn_pt6QQZB2PgugRUmHygKV0Qh87/export?format=pdf'>
+          <a href='https://drive.google.com/uc?export=download&id=19GoGYisPCVb1QU0XUSTuFONlTvLfwI6L'>
             resume
           </a>
         </li>
@@ -45,6 +45,14 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
+              <li>
+                <a
+                  href='https://drive.google.com/uc?export=download&id=19GoGYisPCVb1QU0XUSTuFONlTvLfwI6L'
+                  onClick={() => setToggle(false)}
+                >
+                  resume
+                </a>
+              </li>
             </ul>
           </motion.div>
         )}

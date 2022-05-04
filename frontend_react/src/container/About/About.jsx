@@ -29,11 +29,12 @@ const About = () => {
           the next Starship launch!
         </p>
         <p className='p-text'>
-          I'm a tech enthusiast with a knack for Full Stack and Blockchain
-          development. More recently, I have become increasingly intrigued by
-          System design engineering problems such as circuit breaking and
-          thundering herds. I continue to learn and hone my skills as a software
-          developer.
+          I'm a tech enthusiast with an aptitude for all kinds of development.
+          Over the past 2 years, I have worked with multiple companies in
+          software development roles, contributing to my technical and
+          professional growth. I am passionate about Fullstack and Blockchain
+          development and am constantly exploring new endeavors that interest
+          me.
         </p>
         <p className='p-text'>
           Over the years I have grown fond of activities and disciplines that
