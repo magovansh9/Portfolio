@@ -48,7 +48,7 @@ const Footer = () => {
 
       <div className='app__footer-cards'>
         <div className='app__footer-card'>
-          <img src={images.email} alt='email' />
+          <img src={images.email3} alt='email' />
           <a href='mailto:vmago@uwaterloo.ca' className='p-text'>
             vmago@uwaterloo.ca
           </a>

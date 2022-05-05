@@ -1,3 +1,6 @@
+import email1 from "../assets/email1.jpeg";
+import email2 from "../assets/email2.jpeg";
+import email3 from "../assets/email3.jpeg";
 import email from "../assets/email.png";
 import mobile from "../assets/mobile.png";
 import api from "../assets/api.png";
@@ -24,7 +27,6 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
 import profile from "../assets/profile.png";
-import profile01 from "../assets/profile01.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
 import framerMotion from "../assets/framerMotion.jpeg";
@@ -38,6 +40,9 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 
 export default {
+  email1,
+  email2,
+  email3,
   email,
   mobile,
   api,
