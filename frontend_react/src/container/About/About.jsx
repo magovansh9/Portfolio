@@ -30,10 +30,10 @@ const About = () => {
         </p>
         <p className='p-text'>
           I'm a tech enthusiast with an aptitude for all kinds of development.
-          Over the past 2 years, I have worked with multiple companies in
+          Over the past 2 years, I have worked with multiple organizations in
           software development roles, contributing to my technical and
           professional growth. I am passionate about Fullstack and Blockchain
-          development and am constantly exploring new endeavors that interest
+          development and constantly explore new endeavors that interest
           me.
         </p>
         <p className='p-text'>
