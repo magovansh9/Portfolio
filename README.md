@@ -1,6 +1,6 @@
 # Portfolio
 
-This repository hosts source code for my personal website. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Sanity.io](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme).
+This repository hosts source code for my personal website. The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Sanity.io](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme).
 
 ## Tech Stack
 
