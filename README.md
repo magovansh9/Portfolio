@@ -26,3 +26,5 @@ Sass is a CSS pre-processor with syntax advancements. Style sheets in the advanc
 ## Framer Motion
 
 Framer Motion is a production-ready motion library for React. 
+
+Check out my website [here](https://www.vanshmago.ca/)!
