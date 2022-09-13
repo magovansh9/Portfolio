@@ -47,7 +47,7 @@ const Navbar = () => {
               ))}
               <li>
                 <a
-                  href='https://drive.google.com/uc?export=download&id=19GoGYisPCVb1QU0XUSTuFONlTvLfwI6L'
+                  href='https://drive.google.com/uc?export=download&id=1DIlhbQ11cyYeto5x_hL7VaNvgmv9QQ4y'
                   onClick={() => setToggle(false)}
                 >
                   resume
