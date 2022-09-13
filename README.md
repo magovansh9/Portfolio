@@ -1,6 +1,6 @@
 # Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Sanity.io](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme).
+This repository hosts source code for my personal website. The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Sanity.io](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme).
 
 ## Tech Stack
 
@@ -11,29 +11,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Sanity
 
+Sanity.io is a backend platform for structured content. With Sanity.io you can manage your text, images, and other media with APIs.
+
 ## React
 
-- Use console.logs directly in JSX to identify issue
-- Use ReactToolTip to highlight components
-- When working with specific packages and dependencies, one cannot necessarily style them. Written CSS does not hold a higher precedence to the default styling eg: React Tooltip. To overcome this, add !important to the end of every CSS property (not recommended, but necessary as per use case)
-- Add a line between external and internal imports
+React is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
 
-### Higher Order Components
-
-- Components that are present on every page of a website. Eliminate redundancy professionaly and creatively by using higher-order components.
-
-- Use HOC to wrap smaller components that share similar functionalities
-
-- App wrap for social icon and navigations dots. Motion wrap for wrapping every component in a framer motion div in order to achieve appropriate animations for every section.
 
 ## SCSS
 
-- Allows nesting, makes the styling process more intuitive
+Sass is a CSS pre-processor with syntax advancements. Style sheets in the advanced syntax are processed by the program, and turned into regular CSS style sheets.
 
-- To make the hovering more interactive, add a div and style it to a shape such that it indicates an item being hovered over
-
-- use of media screens to target multiple screens
-
-### BEM methodology for clean CSS
 
 ## Framer Motion
+
+Framer Motion is a production-ready motion library for React. 
+
+Check out my website [here](https://www.vanshmago.ca/)!
